@@ -77,7 +77,7 @@ open class MJSnackBar: UIView {
     /// Data displayed
     fileprivate var currentlyDisplayedData: MJSnackBarData? = nil
 
-    public init(onView: UIView) {
+    @objc public init(onView: UIView) {
         
         super.init(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
 
